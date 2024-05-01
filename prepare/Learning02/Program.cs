@@ -15,5 +15,12 @@ class Program
         job2._company = "apple";
         job2._sYear = 2018;
         job2._eYear = 2022;
+
+        Resume myResume = new Resume();
+        myResume._name = "Levi Jost";
+        myResume._job.Add(job1);
+        myResume._job.Add(job2);
+        myResume.Display();
+
     }
 }
